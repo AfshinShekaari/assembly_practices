@@ -1,5 +1,32 @@
-# Object files
+# Ignore everything
+*
+
+# Unignore
+!*.asm
+!README
+
+# Ignore common binary files
 *.o
-*.ko
-*.obj
-*.elf
+*.exe
+*.bin
+*.hex
+
+# Ignore editor swap files
+*.swp
+.*.swp
+
+# Ignore build folders
+build/
+bin/
+obj/
+*.vs/
+*.idea/
+
+# Ignore logs and caches
+log/
+*.log
+cache/
+
+# Ignore system files
+Thumbs.db
+.DS_Store
