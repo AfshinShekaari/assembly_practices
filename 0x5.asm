@@ -1,7 +1,7 @@
 global _start
 section .data 
     addr dw "hey you space cowboy!!"
-    section .text 
+section .text 
     _start:
     mov [addr], byte 's'    ; => replace 'h' with 's'
     mov [addr+2], byte 'e'  ; => replace 'y' with 'e'
