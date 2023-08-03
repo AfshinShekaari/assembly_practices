@@ -1,4 +1,5 @@
 global _start
+
 section .data 
     addr dw "hey you space cowboy!!"
 section .text 
@@ -11,12 +12,12 @@ section .text
     mov edx, 22 
     int 0x80
     mov eax, 1
-    mov ebx, 0              ; => mission successfull (return 0 in C)
+    mov ebx, 0              ; => mission successful (return 0 in C)
     int 0x80
 
 
 
-; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; section .data 
 ;   ;db is 1 byte 
 ;     name1 db "string"
