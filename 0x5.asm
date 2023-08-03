@@ -11,7 +11,7 @@ section .text
     mov edx, 22 
     int 0x80
     mov eax, 1
-    mov ebx, 0
+    mov ebx, 0              ; => mission successfull (return 0 in C)
     int 0x80
 
 
